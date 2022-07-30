@@ -1,4 +1,4 @@
-# SWEA_10804
+# SWEA_10804.문자열의 거울상 #D3
 
 import sys
 sys.stdin = open("_문자열의거울상.txt")

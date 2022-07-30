@@ -1,3 +1,4 @@
+#1228. [S/W 문제해결 기본] 8일차 - 암호문1 #D3
 
 import sys
 sys.stdin = open("_암호문1.txt")

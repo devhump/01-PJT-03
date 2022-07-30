@@ -1,4 +1,4 @@
-# SWEA_1204
+# SWEA_1204.최빈수구하기 #D2
 
 import sys
 from pprint import pprint
@@ -19,7 +19,7 @@ for i in range(T):
     for i in range(0, 101): # 키값이 0 ~ 100인 빈 딕셔너리 생성
         dict_scores[i] = 0
 
-    # sum_human = 0
+    # sum_human = 0 # 검증코드
 
     for i in range(0, 101): # 딕셔너리 돌면서 숫자 카운팅
         dict_scores[i] = scores.count(i)

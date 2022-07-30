@@ -13,10 +13,10 @@ for i in range(T):
     result = 0
 
     for i in range(0, 15, 2):
-        result += (card_15[i] * 2)
+        result += (card_15[i] * 2) #조건1
 
     for i in range(1, 15, 2):
-        result += card_15[i]
+        result += card_15[i] #조건2
 
     while (result > 10):
         result -= 10
